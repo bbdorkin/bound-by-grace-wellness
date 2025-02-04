@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bound by Grace Wellness</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav ul li a:hover {
+            background: #4CAF50;
+            border-radius: 5px;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #45a049;
+        }
+    </style>
+    <script>
+        function showMessage() {
+            alert('Thank you for visiting Bound by Grace Wellness! Stay healthy and blessed.');
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Bound by Grace Wellness</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#fitness">Fitness & Meal Plans</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#faith">Faith & Encouragement</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Welcome to Bound by Grace Wellness</h2>
+        <p>Empowering you to live a healthier, balanced life through faith, fitness, and wellness.</p>
+        <button onclick="showMessage()">Click for Inspiration</button>
+    </section>
+
+    <section id="blog">
+        <h2>Health & Wellness Blog</h2>
+        <p>Stay updated with tips on managing diabetes, weight loss, and mental well-being.</p>
+    </section>
+
+    <section id="fitness">
+        <h2>Fitness & Meal Plans</h2>
+        <p>Simple and affordable workout and nutrition plans for a healthier lifestyle.</p>
+    </section>
+
+    <section id="resources">
+        <h2>Helpful Resources</h2>
+        <p>Explore books, articles, and external libraries to support your wellness journey.</p>
+    </section>
+
+    <section id="faith">
+        <h2>Faith & Encouragement</h2>
+        <p>Find inspiration and strength through faith-based teachings and motivation.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>Have questions or need support? Reach out to us!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Bound by Grace Wellness. All rights reserved.</p>
+    </footer>
+</body>
+</html>
