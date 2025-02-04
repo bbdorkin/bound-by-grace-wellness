@@ -62,6 +62,15 @@
         button:hover {
             background: #45a049;
         }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #4CAF50;
+            font-size: 20px;
+        }
     </style>
     <script>
         function showMessage() {
@@ -113,6 +122,11 @@
     <section id="contact">
         <h2>Get in Touch</h2>
         <p>Have questions or need support? Reach out to us!</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        </div>
     </section>
 
     <footer>
